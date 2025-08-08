@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #FFEFEF;
+    background-color: #fbf2f2;
     color: #800000;
     font-family: "Montserrat", sans-serif;
 }
@@ -33,7 +33,7 @@ a {
     font-family: "Dancing Script", cursive;
 }
 
-
+/* ===================INFO HEADER=================== */
 .info-header {
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,7 @@ a {
     gap: 10px;
     align-items: center;
 }
+
 /* ===================HEADER=================== */
 header {
     display: flex;
@@ -122,7 +123,7 @@ nav ul {
 
 /* ===================ABOUT=================== */
 .about-area {
-    padding: 80px 200px;
+    padding: 80px 200px 50px;
     text-align: center;
 }
 
@@ -134,6 +135,34 @@ nav ul {
     padding-top: 50px;
     height: 300px;
     width: auto;
+}
+
+/* ===================STATS=================== */
+.stats-area {
+    padding: 30px 70px;
+    background-color: #1A001A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    color: #C8D8C0;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.border {
+    border-right: 1px solid #C8D8C0;
+    padding-right: 70px;
+}
+
+.stat-number {
+    font-size: 1.5rem;
+    padding-bottom: 7px;
+}
+
+.stat-text {
+    font-size: .9rem;
 }
 
 /* ===================FEATURES=================== */
