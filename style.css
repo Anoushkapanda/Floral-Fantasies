@@ -165,6 +165,50 @@ nav ul {
     font-size: .9rem;
 }
 
+/* ===================SHOP BY OCCASION=================== */
+.occasion-content-area {
+    padding: 10px 50px 30px;
+}
+
+.occasion-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    overflow-x: auto;
+    /* to get the scroll behaviour only in the required section in X axis */
+    scroll-behavior: smooth;
+    /* for smooth scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* this decides how element behaves when some sction is taken -> "touch" means scrolling happens when user flicks finger to scroll */
+}
+
+.occasion-content::-webkit-scrollbar {
+    display: none;
+    /* to hide the scrollbar */
+}
+
+/* -webkit-scrollbar is to access Chrome, Safari and edge scrollbar */
+
+.occasion-content-icon {
+    padding: 20px;
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid #1A001A; */
+    margin-bottom: 20px;
+    background-color: #F8DADA;
+}
+
+.occasion-content-icon i {
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 3rem;
+}
+
+.occasion-content-text {
+    text-align: center;
+}
+
 /* ===================FEATURES=================== */
 .features-content-area {
     display: flex;
