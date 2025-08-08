@@ -31,6 +31,7 @@ a {
 
 .section-subtext {
     font-family: "Dancing Script", cursive;
+    font-size: 1.1rem;
 }
 
 /* ===================INFO HEADER=================== */
@@ -234,6 +235,44 @@ nav ul {
 
 /* ===================PRODUCTS=================== */
 
+/* ===================WEEKLY DEALS=================== */
+.weekly-deals-content-area {
+    background-color: #3D001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 150px;
+    border-radius: 20px;
+    /* padding: 50px; */
+}
+
+.weekly-deals-text {
+    padding: 50px;
+}
+
+.weekly-deals-text h4, .weekly-deals-text p {
+    color: #EFD9A7;
+}
+
+.weekly-deals-text h1 {
+    color: #C8D8C0;
+}
+
+.weekly-deals-image img {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.weekly-deals-button {
+    margin-top: 20px;
+}
+
+.weekly-deals-button a {
+    padding: 10px 20px;
+    background-color: #F8DADA;
+    color: #3D001A;
+    border-radius: 20px;
+}
 
 /* ===================TESTIMONIALS=================== */
 
