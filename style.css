@@ -210,28 +210,6 @@ nav ul {
     text-align: center;
 }
 
-/* ===================FEATURES=================== */
-.features-content-area {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 10px 40px;
-    margin: auto;
-}
-
-.feature-item {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    border: 1px solid #1A001A;
-    border-radius: 10px;
-    margin: 30px;
-    padding: 20px 30px;
-}
-
-.feature-icon i {
-    font-size: 2rem;
-}
 
 /* ===================PRODUCTS=================== */
 
@@ -315,6 +293,34 @@ nav ul {
 .follow-us-area span {
     padding-top: 20px;
     font-family: "Playwrite AU QLD", cursive;
+}
+
+/* ===================FEATURES=================== */
+.features-content-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+.feature-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    /* background-color: #F8DADA; */
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px 30px;
+}
+
+.feature-icon i {
+    font-size: 2rem;
+}
+
+.feature-content p {
+    font-size: .8rem;
 }
 
 /* ===================CONTACT=================== */
