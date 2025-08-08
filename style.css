@@ -1,0 +1,271 @@
+/* ===================COMMON=================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFEFEF;
+    color: #800000;
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 2.3rem;
+}
+
+.section-subtext {
+    font-family: "Dancing Script", cursive;
+}
+
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8DADA;
+    padding: 10px 20px;
+    font-size: .8rem;
+}
+
+.info-header-social-links ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+/* ===================HEADER=================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #1A001A;
+}
+
+#floral-fantasies a,
+nav ul a,
+.header-icons ul i {
+    color: #FFEFEF;
+}
+
+.header-icons ul i {
+    color: #EFD9A7;
+}
+
+#floral-fantasies a {
+    font-family: "Quintessential", serif;
+    font-size: 2.3rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.header-icons ul {
+    display: flex;
+    gap: 5px;
+}
+
+/* ===================HERO=================== */
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-image: url(assets/images/hero-image-1.png);
+    height: 550px;
+}
+
+.hero-content-area {
+    width: 60%;
+}
+
+.hero-content-area h1 {
+    font-size: 2.5rem;
+    color: #C8D8C0;
+}
+
+.hero-content-area p {
+    color: #EFD9A7;
+}
+
+.hero-image-area img {
+    width: 300px;
+    transform: rotate(14%);
+}
+
+.outline-flower-image {
+    position: absolute;
+    top: 10;
+}
+
+.outline-flower-image img {
+    width: 200px;
+}
+
+/* ===================ABOUT=================== */
+.about-area {
+    padding: 80px 200px;
+    text-align: center;
+}
+
+.about-heading-area {
+    margin-bottom: 30px;
+}
+
+.hero-image-area video {
+    padding-top: 50px;
+    height: 300px;
+    width: auto;
+}
+
+/* ===================FEATURES=================== */
+.features-content-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 40px;
+    margin: auto;
+}
+
+.feature-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #1A001A;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px 30px;
+}
+
+.feature-icon i {
+    font-size: 2rem;
+}
+
+/* ===================PRODUCTS=================== */
+
+
+/* ===================TESTIMONIALS=================== */
+
+
+/* ===================FOLLOW US=================== */
+.follow-us-area {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.follow-us-image-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.follow-us-image-area img {
+    border-radius: 5px;
+}
+
+.follow-us-left-image-area,
+.follow-us-right-image-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+
+}
+
+.follow-us-left-image-area img,
+.follow-us-right-image-area img {
+    /* width: 200px; */
+    height: 200px;
+}
+
+.follow-us-center-image-area img {
+    height: 414px;
+}
+
+.follow-us-area span {
+    padding-top: 20px;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+/* ===================CONTACT=================== */
+
+
+/* ===================FOOTER=================== */
+
+footer {
+    background-color: #1A001A;
+    padding: 30px 50px;
+    font-size: .8rem;
+}
+
+footer a,
+footer p,
+footer i {
+    color: white;
+}
+
+.main-footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-brand-name {
+    font-size: 1.5rem;
+    font-family: "Quintessential", serif;
+    padding-bottom: 5px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.footer-right-part {
+    display: flex;
+    gap: 50px;
+    align-items: start;
+}
+
+.footer-link-heading {
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links ul {
+    display: flex;
+    gap: 20px;
+    margin: 5px auto;
+}
+
+.social-links ul li {
+    padding-bottom: 5px;
+}
