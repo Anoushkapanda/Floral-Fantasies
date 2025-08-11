@@ -255,6 +255,44 @@ nav ul {
 /* ===================TESTIMONIALS=================== */
 
 
+/* ===================BLOG INTRO=================== */
+.blogs-intro-content-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0px 80px 30px;
+}
+
+.blog-intro-item {
+    /* background-color: #F8DADA; */
+    /* border: 1px solid #1A001A; */
+    width: 27%;
+    padding: 20px 25px;
+}
+
+.blog-subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-subtext p {
+    font-size: .7rem;
+}
+
+.blog-intro-text {
+    font-size: .9rem;
+}
+
+.blog-intro-text span {
+    text-align: justify;
+}
+
+.blog-intro-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* ===================FOLLOW US=================== */
 .follow-us-area {
     padding: 80px 100px;
