@@ -213,6 +213,91 @@ nav ul {
 
 /* ===================PRODUCTS=================== */
 
+
+/* ===================NEW ARRIVALS=================== */
+.new-arrivals {
+    background-color: #3D001A;
+    color: #FFEFEF;
+    padding: 50px 30px;
+}
+
+.new-arrivals-heading-area .section-subtext {
+    color: #C8D8C0;
+}
+
+.new-arrivals-content-area {
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding: 10px 5px;
+}
+
+.new-arrivals-content-area::-webkit-scrollbar {
+    display: none;
+}
+
+.new-arrivals-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 0 0 350px;
+    border: 1.5px solid #EFD9A7;
+    /* color: #3D001A; */
+    /* background-color: #F8DADA; */
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.new-arrivals-subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.new-arrivals-subtext p {
+    font-size: .7rem;
+}
+
+.new-arrivals-subtext i {
+    color: gold;
+}
+
+.price {
+    color: #C8D8C0;
+}
+
+.new-arrivals-maintext h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #EFD9A7;
+}
+
+.new-arrivals-maintext p {
+    font-size: .75rem;
+    margin-top: 8px;
+}
+
+.new-arrivals-image {
+    width: 100%;
+}
+
+.new-arrivals-image img {
+    width: 100%;
+}
+
+.new-arrivals-button {
+    margin-top: 7px;
+}
+
+.new-arrivals-button a, .new-arrivals-button i {
+    color: #F8DADA;
+    font-size: .8rem;
+}
+
 /* ===================WEEKLY DEALS=================== */
 .weekly-deals-content-area {
     background-color: #3D001A;
@@ -228,7 +313,8 @@ nav ul {
     padding: 50px;
 }
 
-.weekly-deals-text h4, .weekly-deals-text p {
+.weekly-deals-text h4,
+.weekly-deals-text p {
     color: #EFD9A7;
 }
 
