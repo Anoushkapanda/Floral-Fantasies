@@ -214,6 +214,60 @@ nav ul {
 /* ===================PRODUCTS=================== */
 
 
+/* ===================HOLIDAY SALE=================== */
+.holiday-sale-content-area {
+    display: flex;
+    gap: 20px;
+    padding: 30px 200px;
+    align-items: stretch;
+}
+
+.holiday-sale-right-card img, .holiday-sale-left-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.holiday-sale-center-card, .holiday-sale-left-card img, .holiday-sale-right-card img {
+    border-radius: 10px;
+}
+
+.holiday-sale-center-card {
+    background-image: url(assets/images/holiday-sale-center-image.png);
+    text-align: center;
+    padding: 40px;
+}
+
+.holiday-sale-card-heading {
+    margin-bottom: 30px;
+}
+
+.holiday-sale-card-heading h1 {
+    color: #EFD9A7;
+}
+
+.holiday-sale-card-heading p {
+    color: #F8DADA;
+}
+
+.holiday-sale-countdown {
+    color: #C8D8C0;
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    align-items: center;
+
+    margin: auto;
+    /* text-align: center; */
+}
+
+.holiday-sale-button {
+    margin-top: 10px;
+}
+
+.holiday-sale-button a {
+    color: #EFD9A7;
+}
+
 /* ===================NEW ARRIVALS=================== */
 .new-arrivals {
     background-color: #3D001A;
@@ -294,7 +348,7 @@ nav ul {
 }
 
 .new-arrivals-button a, .new-arrivals-button i {
-    color: #F8DADA;
+    color: #EFD9A7;
     font-size: .8rem;
 }
 
