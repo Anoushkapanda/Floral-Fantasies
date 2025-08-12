@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 /* ===================COMMON=================== */
 
 * {
@@ -218,8 +211,67 @@ nav ul {
 }
 
 
-/* ===================PRODUCTS=================== */
+/* ===================TOP SELLERS=================== */
+#top-seller {
+    margin: 5px 40px;
+}
 
+.top-seller-content-area {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.top-seller-item {
+    flex: 0 0 200px;
+    /* flex: grow shrink basis*/
+}
+
+.top-seller-content-area::-webkit-scrollbar {
+    display: none;
+}
+
+.product-subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 1px;
+}
+
+.product-subtext p {
+    font-size: .7rem;
+}
+
+.product-subtext i {
+    color: gold;
+}
+
+.product-maintext h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #3D001A;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.top-seller-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.top-seller-button a {
+    background-color: #3D001A;
+    color: #EFD9A7;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 
 /* ===================HOLIDAY SALE=================== */
 .holiday-sale-content-area {
@@ -229,12 +281,15 @@ nav ul {
     align-items: stretch;
 }
 
-.holiday-sale-right-card img, .holiday-sale-left-card img {
+.holiday-sale-right-card img,
+.holiday-sale-left-card img {
     width: 100%;
     height: 100%;
 }
 
-.holiday-sale-center-card, .holiday-sale-left-card img, .holiday-sale-right-card img {
+.holiday-sale-center-card,
+.holiday-sale-left-card img,
+.holiday-sale-right-card img {
     border-radius: 10px;
 }
 
@@ -354,7 +409,8 @@ nav ul {
     margin-top: 7px;
 }
 
-.new-arrivals-button a, .new-arrivals-button i {
+.new-arrivals-button a,
+.new-arrivals-button i {
     color: #EFD9A7;
     font-size: .8rem;
 }
@@ -439,7 +495,8 @@ nav ul {
     padding-top: 7px;
 }
 
-.blog-subtext h6, .blog-subtext p {
+.blog-subtext h6,
+.blog-subtext p {
     font-size: .7rem;
 }
 
